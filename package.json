@@ -3,14 +3,28 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3001",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3001",
     "lint": "next lint"
   },
   "dependencies": {
+    "@tinymce/tinymce-react": "^4.3.0",
+    "amazon-cognito-identity-js": "^6.3.1",
+    "aws-amplify": "^5.3.4",
+    "aws-sdk": "^2.1417.0",
+    "classnames": "^2.3.2",
+    "formik": "^2.4.2",
+    "lodash": "^4.17.21",
+    "luxon": "^3.4.1",
     "next": "13.4.10",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-dropzone": "^14.2.3",
+    "sass": "^1.63.6",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.4",
+    "sweetalert2": "^11.7.20",
+    "yup": "^1.2.0"
   }
 }

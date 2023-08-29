@@ -1,0 +1,35 @@
+@import "~/src/scss/index.scss";
+
+.container {
+    width: 100%;
+    border-radius: 6px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid $border-primary;
+    margin-top: 38px;
+
+    > h2 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+}
+
+.prices {
+    margin-bottom: 20px;
+
+    > div {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+
+        &:last-of-type > span:last-of-type {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        > span {
+            color: $text-primary;           
+        }
+    }
+}
